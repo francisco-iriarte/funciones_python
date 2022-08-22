@@ -11,7 +11,8 @@
 
 def promedio(numeros):
     print("Funcion promedio")
-    resultado = 0
+    resultado = sum(numeros)/len(numeros)
+    
     # La función promedio recibe como parámetro una
     # lista de números. Con ella calcule el promedio como:
 
@@ -42,5 +43,5 @@ if __name__ == '__main__':
 
     # Luego imprimir en pantalla el valor resultante:
     # print(....)
-
+    print(resultado_promedio)
     print("terminamos")
