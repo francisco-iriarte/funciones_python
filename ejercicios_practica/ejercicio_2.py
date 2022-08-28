@@ -9,10 +9,15 @@
 
 # Ejercicios con funciones
 
+from ast import Break
+
+
 def promedio(numeros):
-    print("Funcion promedio")
-    resultado = sum(numeros)/len(numeros)
-    
+    if sum(numeros) != 0:
+        print("Funcion promedio")
+        resultado = sum(numeros)/len(numeros)
+    else:
+        resultado = "lista vacia, no es posible el cálculo"
     # La función promedio recibe como parámetro una
     # lista de números. Con ella calcule el promedio como:
 
